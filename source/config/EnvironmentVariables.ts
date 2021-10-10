@@ -1,5 +1,5 @@
 import { Platform } from 'react-native';
-import { API_URL, ANDROID_KEY, IOS_KEY, MAPS_KEY } from '@env';
+import { API_URL, ANDROID_KEY, IOS_KEY, MAPS_KEY, SECRET } from '@env';
 
 
 export default { 
@@ -9,4 +9,5 @@ export default {
     android: IOS_KEY
   }),
   MAPS_KEY,
+  SECRET,
 }

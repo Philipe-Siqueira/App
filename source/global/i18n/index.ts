@@ -15,6 +15,4 @@ i18n.locale = languageSettings.length > 0 ? languageSettings[0].languageCode : '
 // When a value is missing from a language it'll fallback to another language with the key present.
 i18n.fallbacks = true;
 
-//export const tranlated = (value:string, isFormat: false) => !isFormat ? i18n.t((value).replace);
-
 export const tranlateds = (value:string) => i18n.t(value);

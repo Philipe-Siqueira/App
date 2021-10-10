@@ -3,4 +3,5 @@ declare module '@env' {
   export const ANDROID_KEY: string
   export const IOS_KEY: string
   export const MAPS_KEY: string
+  export const SECRET: string
 }
