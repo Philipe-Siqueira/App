@@ -2,6 +2,7 @@ import React from 'react';
 import { Text } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { tranlateds } from '../../../global/i18n';
+
 export const SignIn: React.FC = () => {
   
   return(
